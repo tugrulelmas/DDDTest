@@ -1,3 +1,4 @@
 language: csharp
 solution: DDDTest.sln
-script: make build
+install:
+  - nuget restore DDDTest.sln
