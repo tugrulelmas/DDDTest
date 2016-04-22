@@ -3,4 +3,4 @@ solution: DDDTest.sln
 install:
   - nuget restore DDDTest.sln
 script:
-  - xbuild /p:Configuration=Release DDDTest.sln
+  - xbuild /p:Configuration=Release DDDTest.sln /p:TargetFrameworkVersion="v4.5"
