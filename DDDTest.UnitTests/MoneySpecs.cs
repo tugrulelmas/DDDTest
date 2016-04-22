@@ -12,7 +12,7 @@ namespace DDDTest.UnitTests
             Money money2 = new Money(1, 2, 3, 4, 5, 6);
 
             var sum = money1 + money2;
-            sum.OneCentCount.Should().Be(4);
+            sum.OneCentCount.Should().Be(2);
         }
 
         [Test]
