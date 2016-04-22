@@ -3,4 +3,4 @@ solution: DDDTest.sln
 install:
   - nuget restore DDDTest.sln
 script:
-  - xbuild /p:VbcToolExe=vbnc.exe DDDTest.sln
+  - xbuild /p:Configuration=Release DDDTest.sln
